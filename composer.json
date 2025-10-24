@@ -1,0 +1,24 @@
+{
+	"name" : "unasis/ahgas-php",
+	"description" : "SDK ahgas fiscal para PHP.",
+	"keywords" : [
+		"ahgas"
+	],
+	"homepage" : "https://github.com/unasis/ahgas-php",
+	"license" : "GPL-3.0",
+	"authors" : [{
+			"name" : "Fabio Garcia",
+			"email" : "suporte@unasis.com.br",
+			"homepage" : "https://www.unasis.com.br/"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5.0",
+		"guzzlehttp/guzzle" : "^6.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"SNFe\\" : "src"
+		}
+	}
+}
