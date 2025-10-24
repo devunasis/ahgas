@@ -1,10 +1,10 @@
-![alt text align:center](https://www.sbaum.com.br/assets/img/logo-sbaum.png "Sbaum-Tecnologia")
 
-# SNFe - SDK PHP
+
+# Ahgas - SDK PHP
 
 
 ## Descrição
-Este pacote consiste em um SDK em PHP para a utilizacao do sistema SNFe através de api - REST.
+Este pacote consiste em um SDK em PHP para a utilizacao do sistema Fiscal Ahgas de api - REST.
 
 # Requisitos
 - PHP >=5.5.19;
@@ -15,7 +15,7 @@ Este pacote consiste em um SDK em PHP para a utilizacao do sistema SNFe através
 Via Composer
 
 ```bash
-composer require sbaum-tecnologia/snfe-php
+composer require unasis/ahgas
 ```
 
 ## Licença
