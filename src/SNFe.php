@@ -19,7 +19,7 @@ class SNFe
 
     /**
      * The Environment variable name for API Key.
-     * @var string
+     * @var string - default SNFE_TOKEN
      */
     public static $tokenEnvVar = 'SNFE_TOKEN';
     public static $tokenSecretEnvVar = 'SNFE_TOKEN_SECRET';
@@ -38,7 +38,7 @@ class SNFe
     public static function getApiBase()
     {
         if(getenv(static::$snfeEnviroment)=="dev"){
-            return 'https://staging-fiscal.gasdelivery.com.br/';
+            return 'https://staging-fiscal.gasdelivery.com.br/v1/';
         }
         return 'https://api.snfe.com.br/v1/';        
     }
