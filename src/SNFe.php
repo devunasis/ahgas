@@ -8,7 +8,7 @@ class SNFe
      * This Package SDK Version.
      * @var string
      */
-    public static $sdkVersion = '1.1.0';
+    public static $sdkVersion = '2.0.0';
 
     /**
      * The base URL for the NFeCloud API.
@@ -37,10 +37,11 @@ class SNFe
     
     public static function getApiBase()
     {
+
         if(getenv(static::$snfeEnviroment)=="dev"){
             return 'https://staging-fiscal.gasdelivery.com.br/v1/';
         }
-        return 'https://api.snfe.com.br/v1/';        
+        return 'https://fiscal.gasdelivery.com.br/v1/';        
     }
     
 }
