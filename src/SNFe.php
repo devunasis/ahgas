@@ -8,7 +8,7 @@ class SNFe
      * This Package SDK Version.
      * @var string
      */
-    public static $sdkVersion = '2.0.0';
+    public static $sdkVersion = '2.0.1';
 
     /**
      * The base URL for the NFeCloud API.
