@@ -1,6 +1,6 @@
 {
 	"name" : "unasis/ahgas-php",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description" : "SDK ahgas fiscal para PHP.",
 	"keywords" : [
 		"ahgas"
